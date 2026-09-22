@@ -1,6 +1,4 @@
-/* ============================
-   Reset & Base
-============================ */
+/* ============================ Base ============================ */
 * {
   margin: 0;
   padding: 0;
@@ -27,9 +25,7 @@ img {
   display: block;
 }
 
-/* ============================
-   Top Info Bar
-============================ */
+/* ============================ Top Bar ============================ */
 .topbar {
   background-color: #0b3a5b;
   color: #ffffff;
@@ -81,9 +77,7 @@ img {
   font-size: 0.9rem;
 }
 
-/* ============================
-   Header
-============================ */
+/* ============================ Header ============================ */
 .site-header {
   background-color: #ffffff;
   border-bottom: 1px solid #eee;
@@ -100,18 +94,18 @@ img {
   gap: 24px;
 }
 
-.brand {
+.logo {
   display: flex;
   align-items: center;
   gap: 12px;
 }
 
-.brand-logo {
+.logo-sekolah {
   width: 56px;
   height: 56px; 
 }
 
-.brand-name {
+.logo-name {
   font-weight: 700;
   font-size: 1.05rem;
   color: #0b6dc4;
@@ -152,16 +146,14 @@ img {
   color: #16213a;
 }
 
-.contact-value {
+.contact-isi {
   display: block;
   font-size: 0.88rem;
   color: #5a6472;
   max-width: 320px;
 }
 
-/* ============================
-   Navigation
-============================ */
+/* ============================ Navigation ============================ */
 .navbar {
   background-color: #ffffff;
   border-bottom: 1px solid #eee;
@@ -237,10 +229,8 @@ img {
   color: #0b6dc4;
 }
 
-/* ============================
-   Hero Section
-============================ */
-.hero {
+/* ============================ News ============================ */
+.news {
   position: relative;
   min-height: 620px;
   background-image: url(https://sman22sby.sch.id/po-content/uploads/foto_jumat_sehat_2.jpg);
@@ -251,12 +241,12 @@ img {
   padding: 0 60px 70px;
 }
 
-.hero-content {
+.news-content {
   max-width: 900px;
   color: #ffffff;
 }
 
-.hero-title {
+.news-title {
   font-size: 3rem;
   font-weight: 800;
   line-height: 1.15;
@@ -264,14 +254,14 @@ img {
   margin-bottom: 18px;
 }
 
-.hero-subtitle {
+.news-subtitle {
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.6;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
 
-.hero-arrow {
+.news-arrow {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -290,21 +280,19 @@ img {
   z-index: 10;
 }
 
-.hero-arrow:hover {
+.news-arrow:hover {
   background: rgba(20, 20, 20, 0.75);
 }
 
-.hero-arrow-left {
+.news-arrow-left {
   left: 30px;
 }
 
-.hero-arrow-right {
+.news-arrow-right {
   right: 30px;
 }
 
-/* ============================
-   Sambutan Kepala Sekolah
-============================ */
+/* ============================ Sambutan Kepala Sekolah ============================ */
 .sambutan {
   display: flex;
   align-items: stretch;
@@ -356,9 +344,7 @@ img {
   object-fit: cover;
 }
 
-/* ============================
-   Visi & Misi
-============================ */
+/* ============================ Visi & Misi ============================ */
 .visimisi {
   background: #f6f9fc;
   padding: 70px 70px 80px;
@@ -431,9 +417,7 @@ img {
   line-height: 1.6;
 }
 
-/* ============================
-   Page Banner (halaman internal)
-============================ */
+/* ============================ Page Banner ============================ */
 .page-banner {
   background: linear-gradient(135deg, #0b3a5b 0%, #0b6dc4 100%);
   color: #ffffff;
@@ -452,9 +436,7 @@ img {
   opacity: 0.9;
 }
 
-/* ============================
-   Page Content (umum)
-============================ */
+/* ============================ Page Content ============================ */
 .page-content {
   max-width: 1100px;
   margin: 0 auto;
@@ -492,9 +474,7 @@ img {
   list-style-type: disc;
 }
 
-/* ============================
-   Tabel Data (jurusan.html)
-============================ */
+/* ============================ Tabel Data (jurusan.html) ============================ */
 .data-table {
   width: 100%;
   border-collapse: collapse;
@@ -534,9 +514,7 @@ img {
   border-bottom: none;
 }
 
-/* ============================
-   Kontak (kontak.html)
-============================ */
+/* ============================ Kontak (kontak.html) ============================ */
 .contact-section {
   padding-top: 60px;
 }
@@ -548,15 +526,15 @@ img {
   align-items: start;
 }
 
-.contact-info-box h2,
-.contact-form-box h2 {
+.contact-info h2,
+.contact-form h2 {
   font-size: 1.4rem;
   font-weight: 800;
   color: #16213a;
   margin-bottom: 14px;
 }
 
-.contact-info-box {
+.contact-info {
   background: #f6f9fc;
   border-radius: 10px;
   padding: 36px 32px;
@@ -581,7 +559,7 @@ img {
   font-size: 0.92rem;
 }
 
-.contact-form-box {
+.contact-form {
   background: #ffffff;
   border-radius: 10px;
   padding: 36px 32px;
@@ -645,99 +623,11 @@ img {
   background: #073d61;
 }
 
-/* ============================
-   Footer
-============================ */
+/* ============================ Footer ============================ */
 .site-footer {
   background: #0b3a5b;
   color: #ffffff;
   text-align: center;
   padding: 22px 24px;
   font-size: 0.9rem;
-}
-
-/* ============================
-   Responsive
-============================ */
-@media (max-width: 992px) {
-  .header-inner {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .nav-list {
-    flex-direction: column;
-  }
-
-  .dropdown {
-    position: static;
-    opacity: 1;
-    visibility: visible;
-    transform: none;
-    box-shadow: none;
-    display: none;
-  }
-
-  .has-dropdown:hover .dropdown {
-    display: block;
-  }
-
-  .hero-title {
-    font-size: 2rem;
-  }
-
-  .sambutan {
-    flex-direction: column;
-    min-height: auto;
-  }
-
-  .sambutan-text {
-    padding: 48px 32px;
-    max-width: none;
-  }
-
-  .sambutan-photo {
-    min-height: 360px;
-  }
-
-  .visimisi {
-    padding: 48px 32px 56px;
-  }
-
-  .visimisi-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .contact-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .data-table {
-    display: block;
-    overflow-x: auto;
-  }
-
-  .page-banner h1 {
-    font-size: 1.8rem;
-  }
-}
-
-@media (max-width: 600px) {
-  .topbar-left {
-    gap: 12px;
-  }
-
-  .contact-block,
-  .location-block {
-    flex-wrap: wrap;
-  }
-
-  .hero {
-    padding: 0 24px 40px;
-    min-height: 480px;
-  }
-
-  .hero-title {
-    font-size: 1.5rem;
-  }
 }
