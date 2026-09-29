@@ -30,3 +30,6 @@ Official Website - SMA Negeri 22 Surabaya
 
 ## Deployed Web Link
 [websman22sby.vercel.app](https://websman22sby.vercel.app)
+
+## PRD WEB SMAN22 SURABAYA
+[PRD WEB SMAN22 SURABAYA](./PRD%20SMA22%20SBR.md)
