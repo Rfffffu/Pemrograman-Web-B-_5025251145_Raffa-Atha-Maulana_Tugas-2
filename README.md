@@ -6,6 +6,12 @@ Official Website - SMA Negeri 22 Surabaya
 ## Sumber
 [sman22sby.sch.id](sman22sby.sch.id)
 
+## PRD WEB SMAN22 SURABAYA
+[PRD WEB SMAN22 SURABAYA](./PRD%20SMA22%20SBR.md)
+
+## Deployed Web Link
+[websman22sby.vercel.app](https://websman22sby.vercel.app)
+
 ## Deskripsi
 - Top bar website yang berisikan informasi kontak dan link tambahan.
 - Header website yang berisikan logo dan nama sekolah, informasi kontak(no. telp dan email), dan lokasi sekolah.
@@ -28,8 +34,4 @@ Official Website - SMA Negeri 22 Surabaya
 ## Wireframe Website
 ![](./src/Wireframe.png)
 
-## Deployed Web Link
-[websman22sby.vercel.app](https://websman22sby.vercel.app)
 
-## PRD WEB SMAN22 SURABAYA
-[PRD WEB SMAN22 SURABAYA](./PRD%20SMA22%20SBR.md)
